@@ -1,7 +1,7 @@
 GET http://localhost:3000/users
 
 ###
-GET http://localhost:3000/users/627df431021f6c3f05f3cc8e
+GET http://localhost:3000/users/627ed8e55fb700a6abe068a4
 
 ###
 
@@ -9,20 +9,21 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name": "Jessie",
-    "Univ": "UNC Charlotte",
-    "GradDate": "10/08/2022"
+    "name": "Samantha",
+    "Univ": "University of Dayton",
+    "GradDate": "09/09/2022"
 }
 
 ###
 
-DELETE http://localhost:3000/users/627df4b2021f6c3f05f3cc90
+DELETE http://localhost:3000/users/627df504021f6c3f05f3cc9b
 
 ###
 
-PATCH   http://localhost:3000/users/627df4c5021f6c3f05f3cc94
+PATCH   http://localhost:3000/users/627df4f2021f6c3f05f3cc98
 Content-Type: application/json
 
 {
-     "name": "Chiru"
+     "name": "Jason",
+     "Univ": "University of Florida"
 }

@@ -4,7 +4,8 @@
   "description": "Built a REST API With Node.js, Express, &amp; MongoDB",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js dev",
+    "prodStart": "nodemon server.js prod"
   },
   "repository": {
     "type": "git",
