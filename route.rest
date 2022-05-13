@@ -1,0 +1,15 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/100
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Jessie",
+    "Univ": "UNC Charlotte",
+    "GradDate": "10/08/2022"
+}
