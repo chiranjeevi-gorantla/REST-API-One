@@ -1,7 +1,7 @@
 GET http://localhost:3000/users
 
 ###
-GET http://localhost:3000/users/100
+GET http://localhost:3000/users/627df431021f6c3f05f3cc8e
 
 ###
 
@@ -12,4 +12,17 @@ Content-Type: application/json
     "name": "Jessie",
     "Univ": "UNC Charlotte",
     "GradDate": "10/08/2022"
+}
+
+###
+
+DELETE http://localhost:3000/users/627df431021f6c3f05f3cc8e
+
+###
+
+PATCH   http://localhost:3000/users/627df4b2021f6c3f05f3cc90
+Content-Type: application/json
+
+{
+     "name": "Chiru"
 }
